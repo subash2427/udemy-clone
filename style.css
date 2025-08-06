@@ -56,16 +56,15 @@ body{
     position: absolute;
     background-color: white;
     border: solid black 2px;
-    width: 90px;
+    width: 92px;
     top: 150%;
-    padding: 20px;
+    padding: 10px;
     right: 0;
     display: none;
 }
-.mylearning:hover .mylearnig__popup{
+.mylearning:hover .mylearning__popup{
     display: block;
 }
-
 .categories{
     display: flex;
     padding: 15px;
@@ -102,9 +101,7 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
-    
-    
+    justify-content:space-between;  
 }
 .course_title p{
     margin-top: 10px;
