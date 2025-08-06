@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    font-family: 'Gabarito',sans-serif;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid black 2px;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar__1__title{
+    color: blueviolet;
+    align-items: center;
+}
+.navbar__2{
+    padding: 10px;
+    border: solid black 1px; 
+    border-radius: 30px;
+    width: 50%; 
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.navbar__2 input{
+    border: none;
+    font-size: 15px;
+}
+.navbar__2 input:focus{
+    outline: none;
+}
+.navbar__3{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.categories{
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    border-bottom: solid black 2px;
+}
+.categories p{
+    border-radius: 30px;
+    padding: 10px;
+    background-color:#8A2BE2;
+    color: white;
+}
+.sale-image img{
+    width: 100%;
+}
+
+.course_title{
+    padding: 20px;
+}
+.course_container{
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+    
+}
+.course_title p{
+    margin-top: 10px;
+}
+
+.course_card{
+    width: 350px;
+}
+.course_card img{
+    width: 100%;
+    height: 50%;
+}
+
+.topics{
+    padding: 20px;
+}
+.topics__container {
+    display: flex;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+}
+.topics__container p{
+    border: solid gray 2px;
+    flex-grow: 1;
+    padding: 15px;
+    flex-basis: 25%;
+} 
+
+.popular{
+    padding: 20px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer{
+    padding: 25px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
